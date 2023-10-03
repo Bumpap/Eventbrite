@@ -1,0 +1,564 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+.footer {
+    font-weight: bold;
+    font-family: "Amatic SC", Times, serif;
+    background-color: blue;
+}
+
+body {
+    background-color: #f1f1f18f;
+}
+
+.btn-success {
+    margin-bottom: 20px;
+}
+
+#price1 {
+    font-weight: bold;
+    color: rgb(5, 119, 5);
+    font-size: smaller;
+}
+
+#cardprice {
+    background-color: black;
+}
+
+.dangky {
+    background-color: #f1f1f18f;
+}
+
+#buttonSignUp {
+    background-color: black;
+    color: white;
+}
+
+#buttonCreateCard {
+    background-color: black;
+    color: white;
+}
+
+.Sign-up-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 450px;
+    border-radius: 16px;
+}
+
+.forgot-card {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 500px;
+}
+
+.Login-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 450px;
+    border-radius: 16px;
+}
+
+#card {
+    border: 1px collapse black;
+    max-width: 100%;
+    max-height: 11cm;
+}
+
+#card:hover {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 150px;
+}
+
+.card-title{
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+/* webkit-line-clamp: 1; */
+.des-app {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+}
+.price{
+    font-size: smaller;
+}
+.develop {
+    font-weight: bold;
+    font-size: smaller;
+    margin: 0;
+}
+.follower {
+    font-weight: bold;
+    font-size: smaller;
+    margin: 0;
+}
+
+
+#fgp {
+    margin-top: 50px;
+}
+
+.card-body {
+    margin-bottom: 60px;
+    max-width: 100%;
+    max-height: 8cm;
+}
+.date-event{
+    font-weight: bold;
+    color: #cc4b24;
+}
+
+.card-login {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 360px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 16px;
+}
+
+#headerlogin {
+    text-align: center;
+}
+
+.create-cards {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+}
+
+#headerlogin1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#headerlogin2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#name {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#listitem {
+    box-shadow: 0 8px 16px 0 #00000033;
+    border: collapse;
+}
+
+.header {
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    padding: 20px 35px 20px 35px;
+    color: #333;
+}
+
+.input {
+    padding: 30px 35px 30px 35px;
+}
+
+.input input[type=text] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 20px;
+}
+
+.input input[type=password] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+
+.input input[type=email] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+
+.input input[type=submit] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.input input[type=submit]:hover {
+    background-color: #111;
+}
+
+.list-group {
+    text-align: center;
+}
+
+.search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    width: 250px;
+}
+
+#find-event {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#create-event {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#newappfree {
+    background-color: #212529;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#newappfree:hover {
+    color: rgb(211, 211, 211);
+}
+
+#topappfree {
+    background-color: #212529;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#topappfree:hover {
+    color: rgb(221, 221, 221);
+}
+
+#login {
+    color: #000000;
+    margin-top: 10px;
+}
+#login:hover {
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#signup {
+    color: #000000;
+    margin-top: 10px;
+}
+
+#signup:hover {
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+
+
+#ava {
+    max-width: 50px;
+    size: 12px;
+    /* margin: -1px; */
+    padding: 9px 10px;
+}
+
+#Dropdown1 {
+    text-align: center;
+    margin-top: 1px;
+    padding: 17px 15px;
+}
+
+#logout {
+    padding: 15px 15px;
+    margin-top: 2.5px;
+}
+
+#img-viewmore {
+    width: 150px;
+    height: 150px;
+}
+
+.item {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 16px black;
+    box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.2);
+    height: 230px;
+}
+
+#text-title {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#userprofile {
+    border-radius: 20px;
+    border: 1px collapse black;
+}
+
+#savebutton {
+    padding: 3px 3px;
+    background-color: black;
+    color: white;
+}
+
+.Change-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 600px;
+    border-radius: 16px;
+}
+
+#status {
+    width: 75%;
+    margin: auto;
+}
+
+#buttonlogin1 {
+    width: 365px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    box-sizing: border-box;
+}
+
+.noaccount {
+    text-align: center;
+    opacity: 50%;
+}
+
+#signupbutton1 {
+    background-color: rgb(80, 70, 70);
+    color: white;
+}
+
+#signupbutton1:hover {
+    background-color: gray;
+    color: white;
+}
+
+#buttonchange1 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+#buttonchange1:hover {
+    background-color: white;
+    color: black;
+}
+
+#homepage-category-tiles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.head{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between; /* Đảm bảo các khối đều nhau */
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.category-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.category-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.category-name {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* p {
+    word-wrap: break-word;
+} */
+
+.slide-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #d63d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 3cm;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.slide-button:hover {
+    background-color: #a53700ea;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(241, 120, 0);
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.seemore{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+}
+
+.colorfooter a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.colorfooter a:hover{
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+.danhsach a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.danhsach a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* CSS App Detail */
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-hero__background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    max-width: 1080px;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-filter: blur(50px) brightness(.9);
+    filter: blur(50px) brightness(.9);
+    z-index: 0;
+}
+.event-hero img {
+    max-width: 940px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.event-details {
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    margin: 10px;
+    max-width: 1080px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+}
